@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+
+
+    //배경색
+    <solid
+        android:color="#E1BEE7"/>
+    //
+    <corners
+        android:radius="16dp"/>
+    //outline
+    <stroke
+        android:color="#4A148C"
+        android:width="16dp"/>
+
+</shape>
