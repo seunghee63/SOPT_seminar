@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="228dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="49.8dp">
+
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:src="@drawable/notice"/>
+
+        </RelativeLayout>
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/movie_theater"
+                   android:scaleType="fitXY"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/background_opacity"
+                   android:layout_alignParentStart="true"
+                   android:layout_alignParentTop="true"/>
+
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/romance"
+                   android:layout_marginTop="95dp"
+                   android:layout_marginBottom="62dp"
+                   android:layout_marginEnd="107dp"
+                   android:layout_marginStart="25dp"/>
+
+        <RelativeLayout
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="206dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginBottom="21dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/round_square_line"/>
+
+            <TextView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:letterSpacing="0.02"
+                    android:lineSpacingExtra="11sp"
+                    android:gravity="center_horizontal"
+                    tools:text="My 취향분석"
+            />
+            <ImageView
+                    android:layout_marginTop="9dp"
+                    android:layout_marginLeft="107.3dp"
+                    android:src="@drawable/arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="98dp"
+            android:background="@drawable/background">
+
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:background="@drawable/background">
+
+    </RelativeLayout>
+
+</LinearLayout>
